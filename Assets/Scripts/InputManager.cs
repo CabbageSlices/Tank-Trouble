@@ -22,4 +22,9 @@ public static class InputManager {
 
         return Input.GetAxis("Horizontal" + joypadNumber) > 0;
     }
+
+    public static bool isFirePressed(int joypadNumber) {
+
+        return Input.GetAxis("Fire" + joypadNumber) > 0;
+    }
 }
